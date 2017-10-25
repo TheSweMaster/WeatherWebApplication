@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>Click the button to get your latitude and longitude coordinates.</p>
+
+<button onclick="GetLocation()">Click here</button>
+
+<p id="demo"></p>
+
+<hr />
+
+<p>Click the button to get the current weather from your location.</p>
+
+<button onclick="GetCurrentWeather()">Click here</button>
+
+<hr />
+
+<div id="weatherResult"></div>
+
+
+<script src="~/Scripts/WeatherScript.js"></script>
